@@ -1,0 +1,14 @@
+{% if messages %}
+<div class = "messages-container">
+    {% for message in messages %}
+    <li>{{message}}</li>
+    {% endfor%}
+</div>
+{% endif %}
+
+if User.objects.filter(username = username).exists():
+            error_message = "Duplicate user name or invalid inputs"
+            messages.error(request, error_message)
+        else:
+            success_msg ="User registered sucessfully"
+            messages.success(request,success_msg)
