@@ -21,12 +21,8 @@
 
 * clone the project
 
-   ```bash
-https://github.com/be19b028ramshidnk/Ecommerce-Django-Project.git
+```bash
+    https://github.com/be19b028ramshidnk/Ecommerce-Django-Project.git
 
-Enter to the ecart folder
-   ```bash
-cd ecart
-
-   ```bash
-python manage.py runserver
+    cd ecart
+    python manage.py runserver
